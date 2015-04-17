@@ -48,5 +48,5 @@ corpus_lsi = lsi[corpus]
 #   print l,"#",t
 # print
 
-for topic in lsi.show_topics(1,5):
+for topic in lsi.show_topics(1,10):
   print topic
